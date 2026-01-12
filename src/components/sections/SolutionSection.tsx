@@ -210,6 +210,14 @@ export const SolutionSection = () => {
                             efter sex. Det varierer fra person til person, hvad der virker bedst.
                           </span>
                         </div>
+                        <div className="flex items-start gap-2">
+                          <Lightbulb className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
+                          <span>
+                            <strong className="text-foreground">Prøv vagitorier:</strong> Hvis gel
+                            ikke virker optimalt, kan vagitorier være et alternativ. Med fingeren
+                            kan de placeres længere oppe i skeden, hvor de kan have bedre effekt.
+                          </span>
+                        </div>
                       </div>
                     </div>
                   </div>
