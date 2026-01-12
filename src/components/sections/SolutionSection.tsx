@@ -93,8 +93,7 @@ export const SolutionSection = () => {
                             kvinder uden symptomer brugte en gel med mælkesyre og glycogen 2x
                             ugentligt i 8 uger. Vaginal pH faldt markant og vaginalfloraen blev
                             sundere, med færre skadelige bakterier (bl.a. <em>Prevotella amnii</em>{' '}
-                            og BVAB1). Glycogen fungerer som næring for laktobacillerne (Campaner et
-                            al. 2025).
+                            og BVAB1).
                           </p>
                         </div>
                         <p className="text-xs text-muted-foreground/70 italic mt-2">
