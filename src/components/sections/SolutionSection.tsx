@@ -28,7 +28,6 @@ export const SolutionSection = () => {
               <strong className="text-foreground">mælkesyrebehandling</strong> der genopretter din
               vaginalflora og beskytter mod blærebetændelse
             </p>
-            <p className="text-xs text-muted-foreground/70 italic mt-2">Diebold et al. (2021)</p>
           </div>
 
           {/* MÆLKESYREBEHANDLING (FOREBYGGELSE) */}
@@ -92,11 +91,11 @@ export const SolutionSection = () => {
                             <strong className="text-foreground">Nyt studie:</strong> 55 raske
                             kvinder uden symptomer brugte en gel med mælkesyre og glycogen 2x
                             ugentligt i 8 uger. Vaginal pH faldt markant og vaginalfloraen blev
-                            sundere, med færre skadelige bakterier (bl.a. <em>Prevotella amnii</em>{' '}
-                            og BVAB1).
+                            sundere, med færre skadelige bakterier bl.a. <em>Prevotella amnii</em>{' '}
+                            og BVAB1 (Campaner et al. 2025).
                           </p>
                         </div>
-                        <p className="text-xs text-muted-foreground/70 italic mt-2">
+                        <p className="text-sm text-muted-foreground/70 italic mt-2">
                           Bemærk: Begge studier havde små testgrupper og ingen kontrolgruppe, så der
                           er brug for større, kontrollerede studier for at bekræfte effekten.
                         </p>
