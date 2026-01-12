@@ -207,7 +207,7 @@ export const SolutionSection = () => {
                           <span>
                             <strong className="text-foreground">Virker det ikke?</strong> Brug
                             mælkesyre oftere (fx hver 2. uge) eller brug det både aften og morgen
-                            efter sex. Det varierer fra person til person, hvad der virker bedst.
+                            efter sex.
                           </span>
                         </div>
                         <div className="flex items-start gap-2">
