@@ -15,11 +15,19 @@ export const UnderstandingSection = () => {
               Årsag til blærebetændelse
             </h2>
             <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl lg:max-w-4xl mx-auto px-2 lg:leading-relaxed">
-              70-95% af alle blærebetændelser skyldes E. coli-bakterier fra tarmen, men årsagen er
-              ofte <strong className="text-foreground">vaginal dysbiose</strong> (ubalance i
-              vaginalflora).
+              Ifølge{' '}
+              <a
+                href="https://www.sundhed.dk/borger/patienthaandbogen/nyrer-og-urinveje/sygdomme/urinvejsinfektioner/blaerebetaendelse-hos-kvinder-der-ikke-er-gravide/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:text-foreground"
+              >
+                sundhed.dk
+              </a>{' '}
+              skyldes 3 ud af 4 blærebetændelser E. coli-bakterier fra tarmen. Her kan{' '}
+              <strong className="text-foreground">vaginal dysbiose</strong> spille en rolle – og det
+              er netop det, vi vil se nærmere på.
             </p>
-            <p className="text-xs text-muted-foreground/70 italic mt-2">Peck & Shepherd (2021)</p>
           </div>
 
           {/* Vaginalflora og Laktobaciller forklaret */}
@@ -36,24 +44,24 @@ export const UnderstandingSection = () => {
                   </h3>
                   <p className="text-muted-foreground leading-relaxed lg:leading-loose lg:text-lg mb-4">
                     Der kan være mange grunde til at skadelige bakterier vandrer op i blæren, men
-                    ofte skyldes det et svækket naturligt forsvar. Hos de fleste menstruerende
-                    kvinder dominerer <strong className="text-foreground">laktobaciller</strong> i
-                    skeden. Disse bakterier producerer{' '}
-                    <strong className="text-foreground">mælkesyre</strong>, som skaber et surt miljø
-                    med en sund pH typisk mellem 3.5 og 4.5 (O'Hanlon et al. 2013; Tidbury et al.
-                    2021). Det sure miljø hæmmer patogener som E. coli. Særligt D-mælkesyre fra{' '}
+                    nogle gange skyldes det et svækket naturligt forsvar. Hos de fleste
+                    menstruerende kvinder dominerer{' '}
+                    <strong className="text-foreground">laktobaciller</strong> i skeden. Disse
+                    bakterier producerer <strong className="text-foreground">mælkesyre</strong>, som
+                    skaber et surt miljø med en sund pH typisk mellem 3.5 og 4.5 (O'Hanlon et al.
+                    2013). Det sure miljø hæmmer patogener som E. coli. Særligt D-mælkesyre fra{' '}
                     <em>L. crispatus</em> har stærk beskyttende effekt, mens andre arter som{' '}
                     <em>L. iners</em> giver mindre beskyttelse (Hudson et al. 2020).
                   </p>
                   <p className="text-muted-foreground leading-relaxed lg:leading-loose lg:text-lg mb-4">
-                    Når laktobacillerne ikke længere dominerer, kaldes det{' '}
-                    <strong className="text-foreground">vaginal dysbiose</strong> – en ubalance med
-                    færre laktobaciller og højere pH, hvilket skaber et miljø hvor patogener som E.
-                    coli lettere kan trives (Chee et al. 2020; Lev-Sagie et al. 2022). Flere
-                    faktorer kan påvirke balancen. Et studie af 32 kvinder viste, at både
-                    menstruation og sex midlertidigt kan forstyrre den vaginale balance – muligvis
-                    fordi blod (pH ~7) og sæd (pH ~7.5) hæver pH, men den præcise årsag er ikke
-                    klarlagt (Gajer et al. 2012).
+                    Når laktobacillerne ikke længere dominerer , kaldes det{' '}
+                    <strong className="text-foreground">vaginal dysbiose</strong> – en ubalance i
+                    vaginalflora med færre laktobaciller og højere pH, hvilket skaber et miljø hvor
+                    patogener som E. coli lettere kan trives (Chee et al. 2020; Lev-Sagie et al.
+                    2022). Flere faktorer kan påvirke balancen. Et studie af 32 kvinder viste, at
+                    både menstruation og sex midlertidigt kan forstyrre den vaginale balance –
+                    muligvis fordi blod (pH ~7) og sæd (pH ~7.5) hæver pH, men den præcise årsag er
+                    ikke klarlagt (Gajer et al. 2012).
                   </p>
                   <div className="p-3 bg-accent/10 rounded-lg border border-accent/20 flex items-start gap-2">
                     <Flower className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />

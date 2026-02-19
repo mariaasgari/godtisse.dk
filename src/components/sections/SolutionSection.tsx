@@ -189,7 +189,7 @@ export const SolutionSection = () => {
                               Brug før sengetid (hvis muligt):
                             </strong>{' '}
                             Produktet virker bedst om aftenen, så det kan virke hele natten uden at
-                            løbe ud
+                            løbe ud.
                           </span>
                         </div>
                         <div className="flex items-start gap-2">
@@ -198,15 +198,16 @@ export const SolutionSection = () => {
                             <strong className="text-foreground">
                               Brug ikke under menstruation:
                             </strong>{' '}
-                            Vent til din menstruation er slut, da blodet kan skylle produktet ud
+                            Vent til din menstruation er slut, da blodet kan skylle produktet ud.
                           </span>
                         </div>
                         <div className="flex items-start gap-2">
                           <Lightbulb className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
                           <span>
-                            <strong className="text-foreground">Virker det ikke?</strong> Brug
-                            mælkesyre oftere (fx hver 2. uge) eller brug det både aften og morgen
-                            efter sex.
+                            <strong className="text-foreground">Virker det ikke?</strong> Prøv at
+                            bruge mælkesyre oftere i løbet af måneden, eller brug det både aften og
+                            morgen efter sex. Det varierer fra person til person, hvad der virker
+                            bedst.
                           </span>
                         </div>
                         <div className="flex items-start gap-2">
@@ -350,7 +351,7 @@ export const SolutionSection = () => {
                             Flere studier indiker at orale kapsler ikke påvirker vaginalfloraen.
                             Lactobacillus-stammerne (L. rhamnosus GR-1 + L. reuteri RC-14) blev
                             enten slet ikke fundet eller kun hos meget få kvinder efter oral
-                            indtagelse (Husain et al. 2020, Yefet et al. 2020, Wolf et al. 2019,
+                            indtagelse (Husain et al. 2020, Yefet et al. 2020, Wolff et al. 2019,
                             Yang et al. 2020).
                           </p>
                         </div>

@@ -72,7 +72,7 @@ export const PreventionSection = () => {
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
                     <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
-                      Vask aldrig i skeden
+                      Vask aldrig inde i skeden (men gerne omkring)
                     </span>
                   </div>
                 </div>
@@ -152,7 +152,7 @@ export const PreventionSection = () => {
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
                     <span className="text-muted-foreground text-xs sm:text-sm">
-                      Vask intimområdet efter sex (aldrig i skeden)
+                      Vask intimområdet efter sex
                     </span>
                   </div>
                 </div>
