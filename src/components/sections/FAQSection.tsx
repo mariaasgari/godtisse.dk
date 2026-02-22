@@ -46,7 +46,7 @@ export const FAQSection = () => {
                   }`}
                 >
                   <div className="px-4 sm:px-6 lg:px-8 pb-4 sm:pb-6 lg:pb-8 pt-2">
-                    <div className="pl-7 sm:pl-9 lg:pl-11 text-muted-foreground leading-relaxed lg:leading-loose whitespace-pre-line text-sm sm:text-base lg:text-lg">
+                    <div className="pl-7 sm:pl-9 lg:pl-11 text-muted-foreground leading-relaxed whitespace-pre-line text-sm sm:text-base">
                       {faq.answer}
                     </div>
                   </div>

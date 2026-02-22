@@ -42,7 +42,7 @@ export const UnderstandingSection = () => {
                   <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 md:mb-4">
                     Hvorfor får du blærebetændelse?
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed lg:leading-loose lg:text-lg mb-4">
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                     Der kan være mange grunde til at skadelige bakterier vandrer op i blæren, men
                     nogle gange skyldes det et svækket naturligt forsvar. Hos de fleste
                     menstruerende kvinder dominerer{' '}
@@ -53,7 +53,7 @@ export const UnderstandingSection = () => {
                     <em>L. crispatus</em> har stærk beskyttende effekt, mens andre arter som{' '}
                     <em>L. iners</em> giver mindre beskyttelse (Hudson et al. 2020).
                   </p>
-                  <p className="text-muted-foreground leading-relaxed lg:leading-loose lg:text-lg mb-4">
+                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
                     Når laktobacillerne ikke længere dominerer , kaldes det{' '}
                     <strong className="text-foreground">vaginal dysbiose</strong>, en ubalance i
                     vaginalflora med færre laktobaciller og højere pH, hvilket skaber et miljø hvor

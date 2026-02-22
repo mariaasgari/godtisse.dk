@@ -120,19 +120,19 @@ export const PreventionSection = () => {
                 <div className="flex flex-col gap-2 sm:gap-3">
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground text-xs sm:text-sm">
+                    <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                       Undgå svømmehal, strand og karbad
                     </span>
                   </div>
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground text-xs sm:text-sm">
+                    <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                       Undgå G-strengstrusser
                     </span>
                   </div>
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground text-xs sm:text-sm">
+                    <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                       Hold dig helt ren i intimområdet
                     </span>
                   </div>
@@ -141,17 +141,17 @@ export const PreventionSection = () => {
                 <div className="flex flex-col gap-2 sm:gap-3">
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground text-xs sm:text-sm">
+                    <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                       pH-balanceret glidecreme under sex
                     </span>
                   </div>
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground text-xs sm:text-sm">Tis efter sex</span>
+                    <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">Tis efter sex</span>
                   </div>
                   <div className="flex items-start gap-2 px-2 sm:px-5">
                     <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-muted-foreground text-xs sm:text-sm">
+                    <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                       Vask intimområdet efter sex
                     </span>
                   </div>

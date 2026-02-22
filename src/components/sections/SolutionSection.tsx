@@ -240,10 +240,10 @@ export const SolutionSection = () => {
           {/* Sådan vælger du det rigtige produkt */}
           <div className="mb-12">
             <div className="text-center mb-8">
-              <h3 className="text-3xl font-bold mb-4 pb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+              <h3 className="text-xl sm:text-2xl lg:text-3xl font-bold mb-4 pb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
                 Sådan vælger du det rigtige produkt
               </h3>
-              <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
+              <p className="text-base sm:text-lg text-muted-foreground max-w-3xl mx-auto">
                 Der findes mange produkter på markedet, men ikke alle er lige effektive. Her er hvad
                 du skal kigge efter.
               </p>
