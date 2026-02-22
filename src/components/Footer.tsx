@@ -26,7 +26,7 @@ export const Footer = () => {
 
           <div className="border-t border-border pt-6">
             <p className="text-sm text-muted-foreground">
-              © {new Date().getFullYear()} godtisse.dk - Denne hjemmeside er udelukkende til
+              © {new Date().getFullYear()} godtisse.dk. Denne hjemmeside er udelukkende til
               informationsformål og erstatter ikke professionel medicinsk rådgivning.
             </p>
           </div>

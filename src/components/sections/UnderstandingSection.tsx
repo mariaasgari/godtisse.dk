@@ -25,7 +25,7 @@ export const UnderstandingSection = () => {
                 sundhed.dk
               </a>{' '}
               skyldes 3 ud af 4 blærebetændelser E. coli-bakterier fra tarmen. Her kan{' '}
-              <strong className="text-foreground">vaginal dysbiose</strong> spille en rolle – og det
+              <strong className="text-foreground">vaginal dysbiose</strong> spille en rolle, og det
               er netop det, vi vil se nærmere på.
             </p>
           </div>
@@ -55,11 +55,11 @@ export const UnderstandingSection = () => {
                   </p>
                   <p className="text-muted-foreground leading-relaxed lg:leading-loose lg:text-lg mb-4">
                     Når laktobacillerne ikke længere dominerer , kaldes det{' '}
-                    <strong className="text-foreground">vaginal dysbiose</strong> – en ubalance i
+                    <strong className="text-foreground">vaginal dysbiose</strong>, en ubalance i
                     vaginalflora med færre laktobaciller og højere pH, hvilket skaber et miljø hvor
                     patogener som E. coli lettere kan trives (Chee et al. 2020; Lev-Sagie et al.
                     2022). Flere faktorer kan påvirke balancen. Et studie af 32 kvinder viste, at
-                    både menstruation og sex midlertidigt kan forstyrre den vaginale balance –
+                    både menstruation og sex midlertidigt kan forstyrre den vaginale balance,
                     muligvis fordi blod (pH ~7) og sæd (pH ~7.5) hæver pH, men den præcise årsag er
                     ikke klarlagt (Gajer et al. 2012).
                   </p>
@@ -146,7 +146,7 @@ export const UnderstandingSection = () => {
                       Dysbiose
                     </h5>
                     <p className="text-sm lg:text-base text-muted-foreground text-center">
-                      Ubalance i floraen - færre laktobaciller producerer mælkesyre og pH stiger
+                      Ubalance i floraen, hvor færre laktobaciller producerer mælkesyre og pH stiger
                     </p>
                   </div>
 

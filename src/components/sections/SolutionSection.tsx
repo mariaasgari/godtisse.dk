@@ -332,7 +332,7 @@ export const SolutionSection = () => {
                           </strong>
                           <p className="text-sm text-muted-foreground">
                             Usikker effekt. Bakterierne skal overleve, kolonisere og producere nok
-                            D-mælkesyre – og ikke alle stammer er lige gode til det. Et studie af
+                            D-mælkesyre, og ikke alle stammer er lige gode til det. Et studie af
                             Jepsen et al. (2022) viste at Lactobacillus-stammerne (L. gasseri + L.
                             rhamnosus) ikke forbedrede vaginalfloraen bedre end placebo. Mens Gupta
                             et al. (2024) og Stapleton et al. (2011) viste at forekomst af

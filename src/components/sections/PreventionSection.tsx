@@ -160,7 +160,7 @@ export const PreventionSection = () => {
 
               <div className="mt-6 p-4 bg-background/50 rounded-lg border border-orange-200 dark:border-orange-900/30 max-w-2xl mx-auto">
                 <p className="text-sm text-muted-foreground italic text-center">
-                  💡<strong className="text-foreground">Alle kroppe er forskellige</strong> - det
+                  💡<strong className="text-foreground">Alle kroppe er forskellige</strong>, og det
                   bedste råd er at prøve sig frem og finde ud af, hvad der virker for dig.
                 </p>
               </div>
