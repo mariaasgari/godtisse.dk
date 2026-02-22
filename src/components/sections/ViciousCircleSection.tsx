@@ -11,10 +11,10 @@ export const ViciousCircleSection = () => {
         <div className="max-w-5xl lg:max-w-6xl mx-auto space-y-10 md:space-y-16">
           <div>
             <div className="text-center mb-10 md:mb-16 lg:mb-20">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent max-w-4xl mx-auto">
                 Den onde cirkel
               </h2>
-              <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl lg:max-w-4xl mx-auto px-2 lg:leading-relaxed">
+              <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 lg:leading-relaxed">
                 Antibiotika er vigtigt og virker, det kurerer din blærebetændelse. Men hos nogle
                 kvinder kommer infektionen tilbage kort tid efter.
               </p>
@@ -31,87 +31,87 @@ export const ViciousCircleSection = () => {
 
                 {/* Circular Flow diagram */}
                 <div className="relative mb-4 md:mb-6 lg:mb-8 flex justify-center">
-                  <div className="relative w-[260px] h-[260px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px]">
+                  <div className="relative w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px]">
                     {/* Central circle with arrows showing rotation */}
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="relative w-28 h-28 md:w-32 md:h-32 rounded-full border-2 border-dashed border-pink-300 dark:border-pink-700 animate-[spin_20s_linear_infinite]"></div>
+                      <div className="relative w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-2 border-dashed border-pink-300 dark:border-pink-700 animate-[spin_20s_linear_infinite]"></div>
                     </div>
 
                     {/* Step 1: Dysbiose - Top */}
                     <div className="absolute top-0 left-1/2 -translate-x-1/2 flex flex-col items-center text-center group">
-                      <div className="bg-gradient-to-br from-pink-100 to-pink-50 dark:from-pink-900/40 dark:to-pink-900/20 rounded-xl w-14 h-14 flex items-center justify-center mb-2 border-2 border-pink-300 dark:border-pink-700 shadow-md group-hover:scale-110 transition-transform duration-300">
-                        <span className="text-2xl">⚖️</span>
+                      <div className="bg-gradient-to-br from-pink-100 to-pink-50 dark:from-pink-900/40 dark:to-pink-900/20 rounded-xl w-10 h-10 sm:w-14 sm:h-14 flex items-center justify-center mb-1 sm:mb-2 border-2 border-pink-300 dark:border-pink-700 shadow-md group-hover:scale-110 transition-transform duration-300">
+                        <span className="text-base sm:text-2xl">⚖️</span>
                       </div>
-                      <div className="bg-pink-100/50 dark:bg-pink-900/20 rounded-lg px-2 py-1.5 border border-pink-200 dark:border-pink-800">
-                        <p className="text-xs font-bold text-pink-900 dark:text-pink-100">
+                      <div className="bg-pink-100/50 dark:bg-pink-900/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-pink-200 dark:border-pink-800">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           Dysbiose
                         </p>
-                        <p className="text-[10px] text-pink-700 dark:text-pink-300">
+                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">
                           Ubalance i floraen
                         </p>
                       </div>
                       {/* Arrow pointing right */}
-                      <ArrowRight className="absolute -right-8 top-6 h-5 w-5 text-pink-500 dark:text-pink-400 rotate-45" />
+                      <ArrowRight className="absolute -right-5 sm:-right-8 top-4 sm:top-6 h-3 w-3 sm:h-5 sm:w-5 text-pink-500 dark:text-pink-400 rotate-45" />
                     </div>
 
                     <div className="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-center text-center group">
-                      <div className="bg-gradient-to-br from-rose-100 to-rose-50 dark:from-rose-900/40 dark:to-rose-900/20 rounded-xl w-14 h-14 flex items-center justify-center mb-2 border-2 border-rose-300 dark:border-rose-700 shadow-md group-hover:scale-110 transition-transform duration-300">
-                        <span className="text-2xl">📈</span>
+                      <div className="bg-gradient-to-br from-rose-100 to-rose-50 dark:from-rose-900/40 dark:to-rose-900/20 rounded-xl w-10 h-10 sm:w-14 sm:h-14 flex items-center justify-center mb-1 sm:mb-2 border-2 border-rose-300 dark:border-rose-700 shadow-md group-hover:scale-110 transition-transform duration-300">
+                        <span className="text-base sm:text-2xl">📈</span>
                       </div>
-                      <div className="bg-rose-100/50 dark:bg-rose-900/20 rounded-lg px-4 py-1.5 border border-rose-200 dark:border-rose-800 whitespace-nowrap">
-                        <p className="text-xs font-bold text-pink-900 dark:text-pink-100">
+                      <div className="bg-rose-100/50 dark:bg-rose-900/20 rounded-lg px-1 py-0.5 sm:px-4 sm:py-1.5 border border-rose-200 dark:border-rose-800 whitespace-nowrap">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           pH stiger
                         </p>
-                        <p className="text-[10px] text-pink-700 dark:text-pink-300">Mindre surt</p>
+                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">Mindre surt</p>
                       </div>
                       {/* Arrow pointing down */}
-                      <ArrowRight className="absolute -bottom-8 left-6 h-5 w-5 text-rose-500 dark:text-rose-400 rotate-[135deg]" />
+                      <ArrowRight className="absolute -bottom-5 sm:-bottom-8 left-4 sm:left-6 h-3 w-3 sm:h-5 sm:w-5 text-rose-500 dark:text-rose-400 rotate-[135deg]" />
                     </div>
 
                     {/* Step 3: Bakterier vokser - Bottom */}
                     <div className="absolute bottom-0 left-1/2 -translate-x-1/2 flex flex-col items-center text-center group">
-                      <div className="bg-gradient-to-br from-fuchsia-100 to-fuchsia-50 dark:from-fuchsia-900/40 dark:to-fuchsia-900/20 rounded-xl w-14 h-14 flex items-center justify-center mb-2 border-2 border-fuchsia-300 dark:border-fuchsia-700 shadow-md group-hover:scale-110 transition-transform duration-300">
-                        <span className="text-2xl">🦠</span>
+                      <div className="bg-gradient-to-br from-fuchsia-100 to-fuchsia-50 dark:from-fuchsia-900/40 dark:to-fuchsia-900/20 rounded-xl w-10 h-10 sm:w-14 sm:h-14 flex items-center justify-center mb-1 sm:mb-2 border-2 border-fuchsia-300 dark:border-fuchsia-700 shadow-md group-hover:scale-110 transition-transform duration-300">
+                        <span className="text-base sm:text-2xl">🦠</span>
                       </div>
-                      <div className="bg-fuchsia-100/50 dark:bg-fuchsia-900/20 rounded-lg px-2 py-1.5 border border-fuchsia-200 dark:border-fuchsia-800 whitespace-nowrap">
-                        <p className="text-xs font-bold text-pink-900 dark:text-pink-100">
+                      <div className="bg-fuchsia-100/50 dark:bg-fuchsia-900/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-fuchsia-200 dark:border-fuchsia-800 whitespace-nowrap">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           Bakterier vokser
                         </p>
-                        <p className="text-[10px] text-pink-700 dark:text-pink-300">
+                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">
                           F.eks. E. coli
                         </p>
                       </div>
                       {/* Arrow pointing left */}
-                      <ArrowRight className="absolute -left-8 top-6 h-5 w-5 text-fuchsia-500 dark:text-fuchsia-400 rotate-[225deg]" />
+                      <ArrowRight className="absolute -left-5 sm:-left-8 top-4 sm:top-6 h-3 w-3 sm:h-5 sm:w-5 text-fuchsia-500 dark:text-fuchsia-400 rotate-[225deg]" />
                     </div>
 
                     {/* Step 4: UVI - Left */}
                     <div className="absolute left-0 top-1/2 -translate-y-1/2 flex flex-col items-center text-center group">
-                      <div className="bg-gradient-to-br from-pink-200 to-pink-100 dark:from-pink-800/50 dark:to-pink-800/30 rounded-xl w-14 h-14 flex items-center justify-center mb-2 border-2 border-pink-400 dark:border-pink-600 shadow-md group-hover:scale-110 transition-transform duration-300">
-                        <span className="text-2xl">⚡</span>
+                      <div className="bg-gradient-to-br from-pink-200 to-pink-100 dark:from-pink-800/50 dark:to-pink-800/30 rounded-xl w-10 h-10 sm:w-14 sm:h-14 flex items-center justify-center mb-1 sm:mb-2 border-2 border-pink-400 dark:border-pink-600 shadow-md group-hover:scale-110 transition-transform duration-300">
+                        <span className="text-base sm:text-2xl">⚡</span>
                       </div>
-                      <div className="bg-pink-200/50 dark:bg-pink-800/20 rounded-lg px-2 py-1.5 border border-pink-300 dark:border-pink-700">
-                        <p className="text-xs font-bold text-pink-900 dark:text-pink-100">Ny UVI</p>
-                        <p className="text-[10px] text-pink-700 dark:text-pink-300">
+                      <div className="bg-pink-200/50 dark:bg-pink-800/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-pink-300 dark:border-pink-700">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">Ny UVI</p>
+                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">
                           Blærebetændelse
                         </p>
                       </div>
                       {/* Arrow pointing up */}
-                      <ArrowRight className="absolute -top-8 left-6 h-5 w-5 text-pink-500 dark:text-pink-400 rotate-[315deg]" />
+                      <ArrowRight className="absolute -top-5 sm:-top-8 left-4 sm:left-6 h-3 w-3 sm:h-5 sm:w-5 text-pink-500 dark:text-pink-400 rotate-[315deg]" />
                     </div>
 
                     {/* Center: Antibiotika */}
                     <div className="absolute inset-0 flex items-center justify-center">
                       <div className="flex flex-col items-center gap-1">
-                        <div className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-pink-200 to-rose-200 dark:from-pink-800/50 dark:to-rose-800/50 rounded-full border-2 border-pink-400 dark:border-pink-600 shadow-md">
-                          <Pill className="h-4 w-4 text-pink-800 dark:text-pink-200" />
-                          <span className="text-xs font-bold text-pink-900 dark:text-pink-100">
+                        <div className="flex items-center gap-1 sm:gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-gradient-to-r from-pink-200 to-rose-200 dark:from-pink-800/50 dark:to-rose-800/50 rounded-full border-2 border-pink-400 dark:border-pink-600 shadow-md">
+                          <Pill className="h-3 w-3 sm:h-4 sm:w-4 text-pink-800 dark:text-pink-200" />
+                          <span className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                             ANTIBIOTIKA
                           </span>
                         </div>
                         <div className="flex items-center gap-1">
-                          <ArrowRight className="h-3 w-3 text-pink-600 dark:text-pink-400 rotate-180" />
-                          <p className="text-[9px] text-center text-pink-800 dark:text-pink-200 font-bold">
+                          <ArrowRight className="h-2 w-2 sm:h-3 sm:w-3 text-pink-600 dark:text-pink-400 rotate-180" />
+                          <p className="text-[7px] sm:text-[9px] text-center text-pink-800 dark:text-pink-200 font-bold">
                             Dræber laktobaciller
                           </p>
                         </div>

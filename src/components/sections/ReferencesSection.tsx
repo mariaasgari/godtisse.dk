@@ -13,7 +13,7 @@ export const ReferencesSection = () => {
         <div className="max-w-5xl lg:max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16 lg:mb-20">
             <div className="inline-block mb-4 px-4 py-2 bg-secondary/10 rounded-full border border-secondary/20"></div>
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-secondary via-primary to-accent bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-secondary via-primary to-accent bg-clip-text text-transparent max-w-4xl mx-auto">
               Referencer & Kilder
             </h2>
           </div>

@@ -11,10 +11,10 @@ export const UnderstandingSection = () => {
         <div className="max-w-5xl lg:max-w-6xl mx-auto">
           {/* Årsagen til blærebetændelse */}
           <div className="text-center mb-10 md:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent max-w-4xl mx-auto">
               Årsag til blærebetændelse
             </h2>
-            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-3xl lg:max-w-4xl mx-auto px-2 lg:leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 lg:leading-relaxed">
               Ifølge{' '}
               <a
                 href="https://www.sundhed.dk/borger/patienthaandbogen/nyrer-og-urinveje/sygdomme/urinvejsinfektioner/blaerebetaendelse-hos-kvinder-der-ikke-er-gravide/"
@@ -26,7 +26,7 @@ export const UnderstandingSection = () => {
               </a>{' '}
               skyldes 3 ud af 4 blærebetændelser E. coli-bakterier fra tarmen. Her kan{' '}
               <strong className="text-foreground">vaginal dysbiose</strong> spille en rolle, og det
-              er netop det, vi vil se nærmere på.
+              er netop det. Det er den årsag, vi vil se nærmere på her.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export const UnderstandingSection = () => {
                 <div className="rounded-full bg-secondary/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center flex-shrink-0">
                   <Microscope className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-secondary" />
                 </div>
-                <div className="max-w-[850px] lg:max-w-none">
+                <div className="max-w-[850px] sm:pr-16 lg:pr-20">
                   <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 md:mb-4">
                     Hvorfor får du blærebetændelse?
                   </h3>
@@ -77,7 +77,7 @@ export const UnderstandingSection = () => {
               </div>
 
               {/* Risikofaktorer */}
-              <div className="mb-6 md:mb-8 lg:mb-10">
+              <div className="mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto">
                 <h4 className="text-base md:text-lg lg:text-xl font-semibold mb-1 text-center text-muted-foreground">
                   Fire risikofaktorer
                 </h4>
@@ -85,7 +85,7 @@ export const UnderstandingSection = () => {
                   der kan forstyrre balancen og skabe vaginal dysbiose
                 </p>
                 <div className="grid grid-cols-2 lg:grid-cols-4 gap-2 sm:gap-4 lg:gap-6">
-                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 p-3 sm:p-4 lg:p-5 rounded-lg bg-primary/5 border border-primary/10 text-center sm:text-left">
+                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 px-1 py-1.5 sm:px-1.5 sm:py-2 lg:px-2 lg:py-3 rounded-lg bg-primary/5 border border-primary/10 text-center sm:text-left">
                     <div className="rounded-full bg-primary/10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 flex items-center justify-center flex-shrink-0">
                       <Heart className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary" />
                     </div>
@@ -96,7 +96,7 @@ export const UnderstandingSection = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 p-3 sm:p-4 lg:p-5 rounded-lg bg-secondary/5 border border-secondary/10 text-center sm:text-left">
+                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 px-1 py-1.5 sm:px-1.5 sm:py-2 lg:px-2 lg:py-3 rounded-lg bg-secondary/5 border border-secondary/10 text-center sm:text-left">
                     <div className="rounded-full bg-secondary/10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 flex items-center justify-center flex-shrink-0">
                       <Droplet className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-secondary" />
                     </div>
@@ -107,7 +107,7 @@ export const UnderstandingSection = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 p-3 sm:p-4 lg:p-5 rounded-lg bg-accent/5 border border-accent/10 text-center sm:text-left">
+                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 px-1 py-1.5 sm:px-1.5 sm:py-2 lg:px-2 lg:py-3 rounded-lg bg-accent/5 border border-accent/10 text-center sm:text-left">
                     <div className="rounded-full bg-accent/10 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 flex items-center justify-center flex-shrink-0">
                       <Flower className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-accent" />
                     </div>
@@ -118,7 +118,7 @@ export const UnderstandingSection = () => {
                       </p>
                     </div>
                   </div>
-                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 p-3 sm:p-4 lg:p-5 rounded-lg bg-rose-50 dark:bg-rose-900/20 border border-rose-200/30 dark:border-rose-900/20 text-center sm:text-left">
+                  <div className="flex flex-col sm:flex-row items-center sm:items-center gap-2 sm:gap-3 px-1 py-1.5 sm:px-1.5 sm:py-2 lg:px-2 lg:py-3 rounded-lg bg-rose-50 dark:bg-rose-900/20 border border-rose-200/30 dark:border-rose-900/20 text-center sm:text-left">
                     <div className="rounded-full bg-rose-100 dark:bg-rose-900/30 w-8 h-8 sm:w-10 sm:h-10 lg:w-12 lg:h-12 flex items-center justify-center flex-shrink-0">
                       <Pill className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-rose-600 dark:text-rose-400" />
                     </div>
@@ -133,12 +133,12 @@ export const UnderstandingSection = () => {
               </div>
 
               {/* Progression: Hvad sker der */}
-              <div className="mb-4 md:mb-6 lg:mb-8">
+              <div className="mb-4 md:mb-6 lg:mb-8 max-w-4xl mx-auto">
                 <h4 className="text-base md:text-lg lg:text-xl font-semibold mb-3 md:mb-4 lg:mb-6 text-center text-muted-foreground">
                   Vejen fra dysbiose til blærebetændelse
                 </h4>
                 <div className="grid grid-cols-1 sm:grid-cols-3 gap-3 md:gap-4 lg:gap-6">
-                  <div className="relative bg-gradient-to-br from-amber-50/50 to-yellow-50/50 dark:from-amber-950/20 dark:to-yellow-950/20 rounded-lg p-5 lg:p-6 border border-amber-200 dark:border-amber-900/30">
+                  <div className="relative bg-gradient-to-br from-amber-50/50 to-yellow-50/50 dark:from-amber-950/20 dark:to-yellow-950/20 rounded-lg px-2 py-2 lg:px-3 lg:py-3 border border-amber-200 dark:border-amber-900/30">
                     <div className="rounded-full bg-amber-600/10 w-12 h-12 lg:w-14 lg:h-14 flex items-center justify-center mb-3 mx-auto">
                       <Scale className="h-6 w-6 lg:h-7 lg:w-7 text-amber-600 dark:text-amber-400" />
                     </div>
@@ -146,11 +146,11 @@ export const UnderstandingSection = () => {
                       Dysbiose
                     </h5>
                     <p className="text-sm lg:text-base text-muted-foreground text-center">
-                      Ubalance i floraen, hvor færre laktobaciller producerer mælkesyre og pH stiger
+                      Færre laktobaciller som producer mælkesyre → pH stiger
                     </p>
                   </div>
 
-                  <div className="relative bg-gradient-to-br from-orange-50/50 to-amber-50/50 dark:from-orange-950/20 dark:to-amber-950/20 rounded-lg p-5 lg:p-6 border border-orange-200 dark:border-orange-900/30">
+                  <div className="relative bg-gradient-to-br from-orange-50/50 to-amber-50/50 dark:from-orange-950/20 dark:to-amber-950/20 rounded-lg px-2 py-2 lg:px-3 lg:py-3 border border-orange-200 dark:border-orange-900/30">
                     <div className="rounded-full bg-orange-600/10 w-12 h-12 lg:w-14 lg:h-14 flex items-center justify-center mb-3 mx-auto">
                       <Bug className="h-6 w-6 lg:h-7 lg:w-7 text-orange-600 dark:text-orange-400" />
                     </div>
@@ -162,7 +162,7 @@ export const UnderstandingSection = () => {
                     </p>
                   </div>
 
-                  <div className="relative bg-gradient-to-br from-red-50/50 to-rose-50/50 dark:from-red-950/20 dark:to-rose-950/20 rounded-lg p-5 lg:p-6 border border-red-200 dark:border-red-900/30">
+                  <div className="relative bg-gradient-to-br from-red-50/50 to-rose-50/50 dark:from-red-950/20 dark:to-rose-950/20 rounded-lg px-2 py-2 lg:px-3 lg:py-3 border border-red-200 dark:border-red-900/30">
                     <div className="rounded-full bg-red-600/10 w-12 h-12 lg:w-14 lg:h-14 flex items-center justify-center mb-3 mx-auto">
                       <Zap className="h-6 w-6 lg:h-7 lg:w-7 text-red-600 dark:text-red-400" />
                     </div>
