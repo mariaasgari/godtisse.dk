@@ -59,12 +59,23 @@ export const SolutionSection = () => {
                       </h3>
                     </div>
 
-                    <p className="text-muted-foreground leading-relaxed lg:leading-loose lg:text-lg mb-6 lg:mb-8">
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-6">
                       Mælkesyrebehandling bruger{' '}
                       <strong className="text-foreground">vaginal mælkesyre</strong> til at
                       forebygge tilbagevendende blærebetændelse.
                     </p>
-                    <p className="text-muted-foreground leading-relaxed mb-6">
+                    <div className="p-3 bg-primary/5 rounded-lg border border-primary/15 flex items-start gap-2 mb-6">
+                      <Lightbulb className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
+                      <p className="text-sm text-muted-foreground">
+                        <strong className="text-foreground">
+                          Mælkesyre ≠ mælkesyrebakterier:
+                        </strong>{' '}
+                        Mælkesyre (lactic acid) er selve stoffet, ikke det samme som
+                        mælkesyrebakterier (Lactobacillus). Denne behandling bruger mælkesyre, som
+                        virker direkte.
+                      </p>
+                    </div>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-6">
                       Mælkesyren fås som{' '}
                       <strong className="text-foreground">gel eller vagitorier med lav pH</strong>{' '}
                       (omkring 4). Det er det samme stof, dine egne laktobaciller producerer
@@ -260,8 +271,8 @@ export const SolutionSection = () => {
                             Mælkesyre (lactic acid) som aktiv ingrediens
                           </strong>
                           <p className="text-sm text-muted-foreground">
-                            Virker med det samme, i modsætning til bakterier som først skal
-                            kolonisere og producere mælkesyre.
+                            Selve stoffet der sænker pH direkte. Virker med det samme, i modsætning
+                            til mælkesyrebakterier som først skal kolonisere.
                           </p>
                         </div>
                       </div>
@@ -331,7 +342,8 @@ export const SolutionSection = () => {
                             Vaginale mælkesyrebakterier (Lactobacillus)
                           </strong>
                           <p className="text-sm text-muted-foreground">
-                            Usikker effekt. Bakterierne skal overleve, kolonisere og producere nok
+                            Ikke det samme som mælkesyre. Usikker effekt. Bakterierne skal overleve,
+                            kolonisere og producere nok
                             D-mælkesyre, og ikke alle stammer er lige gode til det. Et studie af
                             Jepsen et al. (2022) viste at Lactobacillus-stammerne (L. gasseri + L.
                             rhamnosus) ikke forbedrede vaginalfloraen bedre end placebo. Mens Gupta
@@ -348,7 +360,8 @@ export const SolutionSection = () => {
                             Orale mælkesyrebakterier (Lactobacillus)
                           </strong>
                           <p className="text-sm text-muted-foreground">
-                            Flere studier indiker at orale kapsler ikke påvirker vaginalfloraen.
+                            Ikke det samme som mælkesyre. Flere studier indiker at orale kapsler ikke
+                            påvirker vaginalfloraen.
                             Lactobacillus-stammerne (L. rhamnosus GR-1 + L. reuteri RC-14) blev
                             enten slet ikke fundet eller kun hos meget få kvinder efter oral
                             indtagelse (Husain et al. 2020, Yefet et al. 2020, Wolff et al. 2019,
@@ -388,8 +401,9 @@ export const SolutionSection = () => {
                       <div>
                         <h4 className="font-bold text-foreground mb-1">Hvor kan du købe?</h4>
                         <p className="text-sm text-muted-foreground">
-                          Apoteket har mælkesyre til BV-behandling. Undgå mælkesyrebakterier, vælg{' '}
-                          <strong className="text-foreground">mælkesyre</strong> (lactic acid).
+                          Apoteket har mælkesyre til BV-behandling. Vælg produkter med{' '}
+                          <strong className="text-foreground">mælkesyre</strong> (lactic acid) som
+                          ingrediens, ikke mælkesyrebakterier (Lactobacillus).
                         </p>
                       </div>
                     </div>
