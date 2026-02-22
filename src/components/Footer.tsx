@@ -16,10 +16,10 @@ export const Footer = () => {
             <p className="text-sm text-muted-foreground">
               Kontakt:{' '}
               <a
-                href="mailto:godhjemmeside@proton.me"
+                href="mailto:godsiden@proton.me"
                 className="text-primary hover:text-primary/80 transition-colors"
               >
-                godhjemmeside@proton.me
+                godsiden@proton.me
               </a>
             </p>
           </div>
