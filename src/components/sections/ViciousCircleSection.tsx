@@ -23,18 +23,18 @@ export const ViciousCircleSection = () => {
             <Card className="bg-gradient-to-br from-pink-50/50 to-rose-50/50 dark:from-pink-950/20 dark:to-rose-950/20 border-2 border-pink-200 dark:border-pink-900/30 shadow-lg max-w-4xl mx-auto">
               <CardContent className="p-4 sm:p-6 lg:p-10">
                 <div className="text-center mb-4 md:mb-6 lg:mb-8">
-                  <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 pb-1 bg-gradient-to-r from-pink-600 via-fuchsia-500 to-rose-500 bg-clip-text text-transparent max-w-xs sm:max-w-sm md:max-w-md mx-auto">
+                  <h4 className="text-xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 pb-1 bg-gradient-to-r from-pink-600 via-fuchsia-500 to-rose-500 bg-clip-text text-transparent max-w-[16rem] sm:max-w-sm md:max-w-md mx-auto">
                     Støt op under antibiotikakuren
                   </h4>
                   <p className="text-sm text-pink-800 dark:text-pink-200 max-w-2xl mx-auto"></p>
                 </div>
 
                 {/* Circular Flow diagram */}
-                <div className="relative mb-4 md:mb-6 lg:mb-8 flex justify-center">
-                  <div className="relative w-[220px] h-[220px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px]">
+                <div className="relative mb-4 md:mb-6 lg:mb-8 flex justify-center overflow-visible">
+                  <div className="relative w-[260px] h-[260px] sm:w-[280px] sm:h-[280px] md:w-[320px] md:h-[320px] lg:w-[400px] lg:h-[400px]">
                     {/* Central circle with arrows showing rotation */}
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="relative w-20 h-20 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-2 border-dashed border-pink-300 dark:border-pink-700 animate-[spin_20s_linear_infinite]"></div>
+                      <div className="relative w-24 h-24 sm:w-28 sm:h-28 md:w-32 md:h-32 rounded-full border-2 border-dashed border-pink-300 dark:border-pink-700 animate-[spin_20s_linear_infinite]"></div>
                     </div>
 
                     {/* Step 1: Dysbiose - Top */}
@@ -43,15 +43,15 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">⚖️</span>
                       </div>
                       <div className="bg-pink-100/50 dark:bg-pink-900/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-pink-200 dark:border-pink-800">
-                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           Dysbiose
                         </p>
-                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">
+                        <p className="hidden sm:block text-xs text-pink-700 dark:text-pink-300">
                           Ubalance i mikrobiota
                         </p>
                       </div>
                       {/* Arrow pointing right */}
-                      <ArrowRight className="absolute -right-5 sm:-right-8 top-4 sm:top-6 h-3 w-3 sm:h-5 sm:w-5 text-pink-500 dark:text-pink-400 rotate-45" />
+                      <ArrowRight className="absolute -right-3 sm:-right-8 top-4 sm:top-6 h-3 w-3 sm:h-5 sm:w-5 text-pink-500 dark:text-pink-400 rotate-45" />
                     </div>
 
                     <div className="absolute right-0 top-1/2 -translate-y-1/2 flex flex-col items-center text-center group">
@@ -59,13 +59,13 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">📈</span>
                       </div>
                       <div className="bg-rose-100/50 dark:bg-rose-900/20 rounded-lg px-1 py-0.5 sm:px-4 sm:py-1.5 border border-rose-200 dark:border-rose-800 whitespace-nowrap">
-                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           pH stiger
                         </p>
-                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">Mindre surt</p>
+                        <p className="hidden sm:block text-xs text-pink-700 dark:text-pink-300">Mindre surt</p>
                       </div>
                       {/* Arrow pointing down */}
-                      <ArrowRight className="absolute -bottom-5 sm:-bottom-8 left-4 sm:left-6 h-3 w-3 sm:h-5 sm:w-5 text-rose-500 dark:text-rose-400 rotate-[135deg]" />
+                      <ArrowRight className="absolute -bottom-3 sm:-bottom-8 left-4 sm:left-6 h-3 w-3 sm:h-5 sm:w-5 text-rose-500 dark:text-rose-400 rotate-[135deg]" />
                     </div>
 
                     {/* Step 3: Bakterier vokser - Bottom */}
@@ -74,15 +74,15 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">🦠</span>
                       </div>
                       <div className="bg-fuchsia-100/50 dark:bg-fuchsia-900/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-fuchsia-200 dark:border-fuchsia-800 whitespace-nowrap">
-                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           Bakterier vokser
                         </p>
-                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">
+                        <p className="hidden sm:block text-xs text-pink-700 dark:text-pink-300">
                           F.eks. E. coli
                         </p>
                       </div>
                       {/* Arrow pointing left */}
-                      <ArrowRight className="absolute -left-5 sm:-left-8 top-4 sm:top-6 h-3 w-3 sm:h-5 sm:w-5 text-fuchsia-500 dark:text-fuchsia-400 rotate-[225deg]" />
+                      <ArrowRight className="absolute -left-3 sm:-left-8 top-4 sm:top-6 h-3 w-3 sm:h-5 sm:w-5 text-fuchsia-500 dark:text-fuchsia-400 rotate-[225deg]" />
                     </div>
 
                     {/* Step 4: UVI - Left */}
@@ -91,13 +91,13 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">⚡</span>
                       </div>
                       <div className="bg-pink-200/50 dark:bg-pink-800/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-pink-300 dark:border-pink-700">
-                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">Ny UVI</p>
-                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">
+                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">Ny UVI</p>
+                        <p className="hidden sm:block text-xs text-pink-700 dark:text-pink-300">
                           Blærebetændelse
                         </p>
                       </div>
                       {/* Arrow pointing up */}
-                      <ArrowRight className="absolute -top-5 sm:-top-8 left-4 sm:left-6 h-3 w-3 sm:h-5 sm:w-5 text-pink-500 dark:text-pink-400 rotate-[315deg]" />
+                      <ArrowRight className="absolute -top-3 sm:-top-8 left-4 sm:left-6 h-3 w-3 sm:h-5 sm:w-5 text-pink-500 dark:text-pink-400 rotate-[315deg]" />
                     </div>
 
                     {/* Center: Antibiotika */}
