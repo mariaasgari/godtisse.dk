@@ -23,7 +23,7 @@ export const PreventionSection = () => {
           <Card className="border-2 border-primary/20 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5 mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto">
             <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
               <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 lg:gap-6">
-                <div className="rounded-full bg-primary/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center flex-shrink-0">
+                <div className="rounded-full bg-primary/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center shrink-0">
                   <Shield className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-primary" />
                 </div>
                 <div className="sm:pr-16">
@@ -35,19 +35,19 @@ export const PreventionSection = () => {
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-x-8 md:gap-x-16">
                     <div className="flex flex-col gap-2 sm:gap-3 lg:gap-4">
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Sørg for fuld blæretømning hver gang
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Undgå at 'holde dig' i længere tid
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Tør altid forfra og bagud
                         </span>
@@ -56,19 +56,19 @@ export const PreventionSection = () => {
 
                     <div className="flex flex-col gap-2 sm:gap-3 lg:gap-4">
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Drik masser af vand
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           pH-balanceret intimsæbe
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Vask aldrig inde i skeden (gerne omkring)
                         </span>
@@ -84,7 +84,7 @@ export const PreventionSection = () => {
           <Card className="border-2 border-orange-500/30 bg-gradient-to-br from-orange-50/80 to-amber-50/80 dark:from-orange-950/30 dark:to-amber-950/30 shadow-lg max-w-4xl mx-auto">
             <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
               <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 lg:gap-6">
-                <div className="rounded-full bg-orange-600/10 dark:bg-orange-400/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center flex-shrink-0">
+                <div className="rounded-full bg-orange-600/10 dark:bg-orange-400/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center shrink-0">
                   <AlertCircle className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-orange-600 dark:text-orange-400" />
                 </div>
                 <div className="sm:pr-16">
@@ -114,43 +114,43 @@ export const PreventionSection = () => {
                     </span>
                   </div>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-x-8 md:gap-x-16">
-                    <div className="flex flex-col gap-2 sm:gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-x-8 md:gap-x-16 lg:gap-x-24">
+                    <div className="flex flex-col gap-2 sm:gap-3 lg:gap-4">
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Undgå svømmehal, strand og karbad
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Undgå G-strengstrusser
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Hold dig helt ren i intimområdet
                         </span>
                       </div>
                     </div>
 
-                    <div className="flex flex-col gap-2 sm:gap-3">
+                    <div className="flex flex-col gap-2 sm:gap-3 lg:gap-4">
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           pH-balanceret glidecreme under sex
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Tis efter sex
                         </span>
                       </div>
                       <div className="flex items-start gap-2">
-                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
+                        <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
                           Vask intimområdet efter sex
                         </span>
