@@ -67,9 +67,7 @@ export const SolutionSection = () => {
                     <div className="p-3 bg-primary/5 rounded-lg border border-primary/15 flex items-start gap-2 mb-6">
                       <Lightbulb className="h-4 w-4 text-primary flex-shrink-0 mt-0.5" />
                       <p className="text-sm text-muted-foreground">
-                        <strong className="text-foreground">
-                          Mælkesyre ≠ mælkesyrebakterier:
-                        </strong>{' '}
+                        <strong className="text-foreground">Mælkesyre ≠ mælkesyrebakterier:</strong>{' '}
                         Mælkesyre (lactic acid) er selve stoffet, ikke det samme som
                         mælkesyrebakterier (Lactobacillus). Denne behandling bruger mælkesyre, som
                         virker direkte.
@@ -79,9 +77,9 @@ export const SolutionSection = () => {
                       Mælkesyren fås som{' '}
                       <strong className="text-foreground">gel eller vagitorier med lav pH</strong>{' '}
                       (omkring 4). Det er det samme stof, dine egne laktobaciller producerer
-                      naturligt. Påført i skeden hjælper det med at genoprette balancen i den vaginale mikrobiota
-                      ved vaginal dysbiose og kan beskytte mod blærebetændelse, bakteriel vaginose
-                      og andre infektioner.
+                      naturligt. Påført i skeden hjælper det med at genoprette balancen i den
+                      vaginale mikrobiota ved vaginal dysbiose og kan beskytte mod blærebetændelse,
+                      bakteriel vaginose og andre infektioner.
                     </p>
 
                     <div className="bg-background/70 rounded-lg p-5 border border-accent/20">
@@ -101,9 +99,9 @@ export const SolutionSection = () => {
                           <p className="text-sm text-muted-foreground">
                             <strong className="text-foreground">Nyt studie:</strong> 55 raske
                             kvinder uden symptomer brugte en gel med mælkesyre og glycogen 2x
-                            ugentligt i 8 uger. Vaginal pH faldt markant og den vaginale mikrobiota blev
-                            sundere, med færre skadelige bakterier bl.a. <em>Prevotella amnii</em>{' '}
-                            og BVAB1 (Campaner et al. 2025).
+                            ugentligt i 8 uger. Vaginal pH faldt markant og den vaginale mikrobiota
+                            blev sundere, med færre skadelige bakterier bl.a.{' '}
+                            <em>Prevotella amnii</em> og BVAB1 (Campaner et al. 2025).
                           </p>
                         </div>
                         <p className="text-sm text-muted-foreground/70 italic mt-2">
@@ -343,12 +341,12 @@ export const SolutionSection = () => {
                           </strong>
                           <p className="text-sm text-muted-foreground">
                             Ikke det samme som mælkesyre. Usikker effekt. Bakterierne skal overleve,
-                            kolonisere og producere nok
-                            D-mælkesyre, og ikke alle stammer er lige gode til det. Et studie af
-                            Jepsen et al. (2022) viste at Lactobacillus-stammerne (L. gasseri + L.
-                            rhamnosus) ikke forbedrede den vaginale mikrobiota bedre end placebo. Mens Gupta
-                            et al. (2024) og Stapleton et al. (2011) viste at forekomst af
-                            blærebetændelse kan reduceres signifikant ved vaginalt brug af bestemte
+                            kolonisere og producere nok D-mælkesyre, og ikke alle stammer er lige
+                            gode til det. Et studie af Jepsen et al. (2022) viste at
+                            Lactobacillus-stammerne (L. gasseri + L. rhamnosus) ikke forbedrede den
+                            vaginale mikrobiota bedre end placebo. Mens Gupta et al. (2024) og
+                            Stapleton et al. (2011) viste at forekomst af blærebetændelse kan
+                            reduceres signifikant ved vaginalt brug af bestemte
                             Lactobacillus-stammer (f.eks. L. crispatus).
                           </p>
                         </div>
@@ -360,12 +358,11 @@ export const SolutionSection = () => {
                             Orale mælkesyrebakterier (Lactobacillus)
                           </strong>
                           <p className="text-sm text-muted-foreground">
-                            Ikke det samme som mælkesyre. Flere studier indiker at orale kapsler ikke
-                            påvirker den vaginale mikrobiota.
-                            Lactobacillus-stammerne (L. rhamnosus GR-1 + L. reuteri RC-14) blev
-                            enten slet ikke fundet eller kun hos meget få kvinder efter oral
-                            indtagelse (Husain et al. 2020, Yefet et al. 2020, Wolff et al. 2019,
-                            Yang et al. 2020).
+                            Ikke det samme som mælkesyre. Flere studier indiker at orale kapsler
+                            ikke påvirker den vaginale mikrobiota. Lactobacillus-stammerne (L.
+                            rhamnosus GR-1 + L. reuteri RC-14) blev enten slet ikke fundet eller kun
+                            hos meget få kvinder efter oral indtagelse (Husain et al. 2020, Yefet et
+                            al. 2020, Wolff et al. 2019, Yang et al. 2020).
                           </p>
                         </div>
                       </div>
