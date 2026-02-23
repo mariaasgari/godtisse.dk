@@ -11,10 +11,10 @@ export const FAQSection = () => {
       <div className="container mx-auto px-4 lg:px-8">
         <div className="max-w-4xl lg:max-w-5xl mx-auto">
           <div className="text-center mb-10 md:mb-16 lg:mb-20">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent max-w-4xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent max-w-3xl mx-auto">
               Ofte stillede spørgsmål
             </h2>
-            <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 lg:leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-2xl mx-auto px-2 lg:leading-relaxed">
               Find svar på spørgsmål om vaginal dysbiose, symptomer og hvornår du bør handle
             </p>
           </div>

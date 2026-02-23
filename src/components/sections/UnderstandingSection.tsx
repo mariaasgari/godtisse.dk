@@ -11,10 +11,10 @@ export const UnderstandingSection = () => {
         <div className="max-w-5xl lg:max-w-6xl mx-auto">
           {/* Årsagen til blærebetændelse */}
           <div className="text-center mb-10 md:mb-16">
-            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent max-w-4xl mx-auto">
+            <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent max-w-xs sm:max-w-sm md:max-w-md mx-auto">
               Årsag til blærebetændelse
             </h2>
-            <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 lg:leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-2xl mx-auto px-2 lg:leading-relaxed">
               Ifølge{' '}
               <a
                 href="https://www.sundhed.dk/borger/patienthaandbogen/nyrer-og-urinveje/sygdomme/urinvejsinfektioner/blaerebetaendelse-hos-kvinder-der-ikke-er-gravide/"
@@ -25,8 +25,8 @@ export const UnderstandingSection = () => {
                 sundhed.dk
               </a>{' '}
               skyldes 3 ud af 4 blærebetændelser E. coli-bakterier fra tarmen. Her kan{' '}
-              <strong className="text-foreground">vaginal dysbiose</strong> spille en rolle, og det
-              er netop det. Det er den årsag, vi vil se nærmere på her.
+              <strong className="text-foreground">vaginal dysbiose</strong> spille en rolle. Det er
+              den årsag, som vi vil se nærmere på her.
             </p>
           </div>
 
@@ -38,7 +38,7 @@ export const UnderstandingSection = () => {
                 <div className="rounded-full bg-secondary/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center flex-shrink-0">
                   <Microscope className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-secondary" />
                 </div>
-                <div className="max-w-[850px] sm:pr-16 lg:pr-20">
+                <div className="max-w-4xl">
                   <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 md:mb-4">
                     Hvorfor får du blærebetændelse?
                   </h3>
@@ -146,7 +146,7 @@ export const UnderstandingSection = () => {
                       Dysbiose
                     </h5>
                     <p className="text-sm lg:text-base text-muted-foreground text-center">
-                      Færre laktobaciller som producer mælkesyre → pH stiger
+                      Færre laktobaciller som producer mælkesyre og stigende pH
                     </p>
                   </div>
 

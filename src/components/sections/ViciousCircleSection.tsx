@@ -11,10 +11,10 @@ export const ViciousCircleSection = () => {
         <div className="max-w-5xl lg:max-w-6xl mx-auto space-y-10 md:space-y-16">
           <div>
             <div className="text-center mb-10 md:mb-16 lg:mb-20">
-              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent max-w-4xl mx-auto">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent max-w-3xl mx-auto">
                 Den onde cirkel
               </h2>
-              <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-3xl mx-auto px-2 lg:leading-relaxed">
+              <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-2xl mx-auto px-2 lg:leading-relaxed">
                 Antibiotika er vigtigt og virker, det kurerer din blærebetændelse. Men hos nogle
                 kvinder kommer infektionen tilbage kort tid efter.
               </p>
@@ -23,7 +23,7 @@ export const ViciousCircleSection = () => {
             <Card className="bg-gradient-to-br from-pink-50/50 to-rose-50/50 dark:from-pink-950/20 dark:to-rose-950/20 border-2 border-pink-200 dark:border-pink-900/30 shadow-lg">
               <CardContent className="p-4 sm:p-6 lg:p-10">
                 <div className="text-center mb-4 md:mb-6 lg:mb-8">
-                  <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 pb-1 bg-gradient-to-r from-pink-600 via-fuchsia-500 to-rose-500 bg-clip-text text-transparent">
+                  <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 pb-1 bg-gradient-to-r from-pink-600 via-fuchsia-500 to-rose-500 bg-clip-text text-transparent max-w-xs sm:max-w-sm md:max-w-md mx-auto">
                     Støt op under antibiotikakuren
                   </h4>
                   <p className="text-sm text-pink-800 dark:text-pink-200 max-w-2xl mx-auto"></p>
