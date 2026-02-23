@@ -337,7 +337,7 @@ export const SolutionSection = () => {
                         <XCircle className="h-5 w-5 text-destructive flex-shrink-0 mt-0.5" />
                         <div>
                           <strong className="text-foreground">
-                            Vaginale mælkesyrebakterier (Lactobacillus)
+                            Vaginale mælkesyrebakterier (probiotika)
                           </strong>
                           <p className="text-sm text-muted-foreground">
                             Ikke det samme som mælkesyre. Usikker effekt. Bakterierne skal overleve,
@@ -355,7 +355,7 @@ export const SolutionSection = () => {
                         <XCircle className="h-5 w-5 text-destructive flex-shrink-0 mt-0.5" />
                         <div>
                           <strong className="text-foreground">
-                            Orale mælkesyrebakterier (Lactobacillus)
+                            Orale mælkesyrebakterier (probiotika)
                           </strong>
                           <p className="text-sm text-muted-foreground">
                             Ikke det samme som mælkesyre. Flere studier indiker at orale kapsler
