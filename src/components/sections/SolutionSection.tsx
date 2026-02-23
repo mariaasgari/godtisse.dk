@@ -400,7 +400,7 @@ export const SolutionSection = () => {
                         <p className="text-sm text-muted-foreground">
                           Apoteket har mælkesyre til BV-behandling. Vælg produkter med{' '}
                           <strong className="text-foreground">mælkesyre</strong> (lactic acid) som
-                          ingrediens, ikke mælkesyrebakterier (Lactobacillus).
+                          ingrediens, ikke mælkesyrebakterier (probiotika).
                         </p>
                       </div>
                     </div>
