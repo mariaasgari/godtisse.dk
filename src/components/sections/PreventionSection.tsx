@@ -32,7 +32,7 @@ export const PreventionSection = () => {
                     Forebyg blærebetændelse med disse daglige rutiner
                   </p>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-x-8 md:gap-x-16 lg:gap-x-24">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-x-8 md:gap-x-16">
                     <div className="flex flex-col gap-2 sm:gap-3 lg:gap-4">
                       <div className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
