@@ -9,7 +9,7 @@ export const FAQSection = () => {
   return (
     <section id="faq" className="py-12 md:py-20 lg:py-24 bg-gradient-to-b from-background to-muted/30">
       <div className="container mx-auto px-4 lg:px-8">
-        <div className="max-w-4xl lg:max-w-5xl mx-auto">
+        <div className="max-w-5xl lg:max-w-6xl mx-auto">
           <div className="text-center mb-10 md:mb-16 lg:mb-20">
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent max-w-3xl mx-auto">
               Ofte stillede spørgsmål
@@ -19,7 +19,7 @@ export const FAQSection = () => {
             </p>
           </div>
 
-          <div className="space-y-3 md:space-y-4 lg:space-y-5">
+          <div className="space-y-3 md:space-y-4 lg:space-y-5 max-w-4xl mx-auto">
             {faqs.map((faq, index) => (
               <Card
                 key={index}

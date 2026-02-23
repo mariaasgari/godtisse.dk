@@ -20,7 +20,7 @@ export const ReferencesSection = () => {
           </div>
 
           <Card className="border-2 border-secondary/20 shadow-lg mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto">
-            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-10">
+            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
               <div className="space-y-4 md:space-y-6 lg:space-y-8 max-w-3xl mx-auto">
                 {sortedReferences.map((ref, index) => (
                   <div

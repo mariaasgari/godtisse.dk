@@ -26,7 +26,7 @@ export const Hero = () => (
 
         <p className="text-lg sm:text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-150 px-2">
           Kvinders guide til at undgå tilbagevendende blærebetændelser med viden, forebyggelse og
-          balance i vaginalflora
+          balance i vaginal mikrobiota
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-in fade-in slide-in-from-bottom-4 duration-1000 delay-300">

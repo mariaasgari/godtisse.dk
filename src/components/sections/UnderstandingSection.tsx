@@ -30,9 +30,9 @@ export const UnderstandingSection = () => {
             </p>
           </div>
 
-          {/* Vaginalflora og Laktobaciller forklaret */}
+          {/* Vaginal mikrobiota og Laktobaciller forklaret */}
           <Card className="border-2 border-secondary/20 shadow-lg mb-8 md:mb-12 lg:mb-16">
-            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-10">
+            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
               {/* Header med ikon */}
               <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 lg:gap-6 mb-6 md:mb-8">
                 <div className="rounded-full bg-secondary/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center flex-shrink-0">
@@ -42,27 +42,34 @@ export const UnderstandingSection = () => {
                   <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 md:mb-4">
                     Hvorfor får du blærebetændelse?
                   </h3>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                    Der kan være mange grunde til at skadelige bakterier vandrer op i blæren, men
-                    nogle gange skyldes det et svækket naturligt forsvar. Hos de fleste
-                    menstruerende kvinder dominerer{' '}
-                    <strong className="text-foreground">laktobaciller</strong> i skeden. Disse
-                    bakterier producerer <strong className="text-foreground">mælkesyre</strong>, som
-                    skaber et surt miljø med en sund pH typisk mellem 3.5 og 4.5 (O'Hanlon et al.
-                    2013). Det sure miljø hæmmer patogener som E. coli. Særligt D-mælkesyre fra{' '}
-                    <em>L. crispatus</em> har stærk beskyttende effekt, mens andre arter som{' '}
-                    <em>L. iners</em> giver mindre beskyttelse (Hudson et al. 2020).
-                  </p>
-                  <p className="text-sm text-muted-foreground leading-relaxed mb-4">
-                    Når laktobacillerne ikke længere dominerer , kaldes det{' '}
-                    <strong className="text-foreground">vaginal dysbiose</strong>, en ubalance i
-                    vaginalflora med færre laktobaciller og højere pH, hvilket skaber et miljø hvor
-                    patogener som E. coli lettere kan trives (Chee et al. 2020; Lev-Sagie et al.
-                    2022). Flere faktorer kan påvirke balancen. Et studie af 32 kvinder viste, at
-                    både menstruation og sex midlertidigt kan forstyrre den vaginale balance,
-                    muligvis fordi blod (pH ~7) og sæd (pH ~7.5) hæver pH, men den præcise årsag er
-                    ikke klarlagt (Gajer et al. 2012).
-                  </p>
+                  <div className="sm:columns-2 sm:gap-6 lg:gap-8 mb-4">
+                    <h4 className="text-sm font-semibold text-foreground mb-2">
+                      Bakteriemiljø i balance
+                    </h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed mb-4">
+                      Der kan være mange grunde til at skadelige bakterier vandrer op i blæren, men
+                      nogle gange skyldes det en ubalance i den vaginale mikrobiota
+                      (bakteriemiljøet). Hos de fleste menstruerende kvinder dominerer{' '}
+                      <strong className="text-foreground">laktobaciller</strong> i skeden. Disse
+                      bakterier producerer <strong className="text-foreground">mælkesyre</strong>,
+                      som skaber et surt miljø med en sund pH typisk mellem 3.5 og 4.5 (O'Hanlon et
+                      al. 2013). Det sure miljø hæmmer patogener som E. coli. Særligt D-mælkesyre
+                      fra <em>L. crispatus</em> har stærk beskyttende effekt, mens andre arter som{' '}
+                      <em>L. iners</em> giver mindre beskyttelse (Hudson et al. 2020).
+                    </p>
+                    <h4 className="text-sm font-semibold text-foreground mb-2">Vaginal dysbiose</h4>
+                    <p className="text-sm text-muted-foreground leading-relaxed">
+                      Når laktobacillerne ikke længere dominerer, kaldes det{' '}
+                      <strong className="text-foreground">vaginal dysbiose</strong>, en ubalance i
+                      den vaginale mikrobiota med færre laktobaciller og højere pH, hvilket skaber
+                      et miljø hvor patogener som E. coli lettere kan trives (Chee et al. 2020;
+                      Lev-Sagie et al. 2022). Der er flere faktorer, som kan påvirke balancen i det
+                      vaginale bakteriemiljø. Et studie af 32 kvinder viste, at både menstruation og
+                      sex midlertidigt kan forstyrre den vaginale balance, muligvis fordi blod (pH
+                      ~7) og sæd (pH ~7.5) hæver pH, men den præcise årsag er ikke klarlagt endnu
+                      (Gajer et al. 2012).
+                    </p>
+                  </div>
                   <div className="p-3 bg-accent/10 rounded-lg border border-accent/20 flex items-start gap-2">
                     <Flower className="h-4 w-4 text-accent flex-shrink-0 mt-0.5" />
                     <p className="text-sm text-muted-foreground">
@@ -143,10 +150,10 @@ export const UnderstandingSection = () => {
                       <Scale className="h-6 w-6 lg:h-7 lg:w-7 text-amber-600 dark:text-amber-400" />
                     </div>
                     <h5 className="font-semibold text-foreground mb-2 text-center lg:text-lg">
-                      Dysbiose
+                      Vaginal dysbiose
                     </h5>
                     <p className="text-sm lg:text-base text-muted-foreground text-center">
-                      Færre laktobaciller som producer mælkesyre og stigende pH
+                      Færre laktobaciller som producer mælkesyre og stigende pH →
                     </p>
                   </div>
 
@@ -158,7 +165,7 @@ export const UnderstandingSection = () => {
                       Bakterier trives
                     </h5>
                     <p className="text-sm lg:text-base text-muted-foreground text-center">
-                      E. coli og andre patogener kan nu overleve i skeden
+                      E. coli og andre patogener kan nu overleve i skeden →
                     </p>
                   </div>
 

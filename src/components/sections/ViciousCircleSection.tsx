@@ -20,7 +20,7 @@ export const ViciousCircleSection = () => {
               </p>
             </div>
 
-            <Card className="bg-gradient-to-br from-pink-50/50 to-rose-50/50 dark:from-pink-950/20 dark:to-rose-950/20 border-2 border-pink-200 dark:border-pink-900/30 shadow-lg">
+            <Card className="bg-gradient-to-br from-pink-50/50 to-rose-50/50 dark:from-pink-950/20 dark:to-rose-950/20 border-2 border-pink-200 dark:border-pink-900/30 shadow-lg max-w-4xl mx-auto">
               <CardContent className="p-4 sm:p-6 lg:p-10">
                 <div className="text-center mb-4 md:mb-6 lg:mb-8">
                   <h4 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-3 md:mb-4 pb-1 bg-gradient-to-r from-pink-600 via-fuchsia-500 to-rose-500 bg-clip-text text-transparent max-w-xs sm:max-w-sm md:max-w-md mx-auto">
@@ -47,7 +47,7 @@ export const ViciousCircleSection = () => {
                           Dysbiose
                         </p>
                         <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">
-                          Ubalance i floraen
+                          Ubalance i mikrobiota
                         </p>
                       </div>
                       {/* Arrow pointing right */}
@@ -148,7 +148,7 @@ export const ViciousCircleSection = () => {
                         effekten holder kun så længe man tager medicinen.{' '}
                         <strong className="text-pink-950 dark:text-pink-50">20-30%</strong> får
                         blærebetændelse kort tid efter, at de er stoppet (Jent et al. 2022). Derfor
-                        er det vigtigt at støtte din vaginalflora med mælkesyre under og efter en
+                        er det vigtigt at støtte din vaginale mikrobiota med mælkesyre under og efter en
                         antibiotikakur.
                       </p>
                     </div>

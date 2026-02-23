@@ -14,19 +14,19 @@ export const PreventionSection = () => {
               Gode vaner
             </h2>
             <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-2xl mx-auto px-2 lg:leading-relaxed">
-              Supplér mælkesyrebehandlingen med disse enkle forebyggende vaner.
+              Supplér mælkesyrebehandlingen med disse enkle vaner.
             </p>
           </div>
 
           {/* ALTID - Generelle gode vaner */}
 
-          <Card className="border-2 border-primary/20 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5 mb-6 md:mb-8 lg:mb-10">
-            <CardContent className="p-5 sm:p-8 md:p-12 lg:p-16">
+          <Card className="border-2 border-primary/20 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5 mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto">
+            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
               <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 lg:gap-6">
                 <div className="rounded-full bg-primary/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center flex-shrink-0">
                   <Shield className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-primary" />
                 </div>
-                <div className="sm:pr-16 lg:pr-20">
+                <div className="sm:pr-16">
                   <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-1">Dagligt</h3>
                   <p className="text-muted-foreground leading-relaxed mb-4 lg:mb-6">
                     Forebyg blærebetændelse med disse daglige rutiner
@@ -70,7 +70,7 @@ export const PreventionSection = () => {
                       <div className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 lg:h-6 lg:w-6 text-primary flex-shrink-0 mt-0.5" />
                         <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
-                          Vask aldrig inde i skeden (men gerne omkring)
+                          Vask aldrig inde i skeden (gerne omkring)
                         </span>
                       </div>
                     </div>
@@ -81,13 +81,13 @@ export const PreventionSection = () => {
           </Card>
 
           {/* I HØJRISIKO-PERIODER */}
-          <Card className="border-2 border-orange-500/30 bg-gradient-to-br from-orange-50/80 to-amber-50/80 dark:from-orange-950/30 dark:to-amber-950/30 shadow-lg">
-            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-10">
+          <Card className="border-2 border-orange-500/30 bg-gradient-to-br from-orange-50/80 to-amber-50/80 dark:from-orange-950/30 dark:to-amber-950/30 shadow-lg max-w-4xl mx-auto">
+            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
               <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 lg:gap-6">
                 <div className="rounded-full bg-orange-600/10 dark:bg-orange-400/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center flex-shrink-0">
                   <AlertCircle className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-orange-600 dark:text-orange-400" />
                 </div>
-                <div className="sm:pr-16 lg:pr-20">
+                <div className="sm:pr-16">
                   <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-1">
                     Højrisiko perioder
                   </h3>
@@ -145,7 +145,9 @@ export const PreventionSection = () => {
                       </div>
                       <div className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
-                        <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">Tis efter sex</span>
+                        <span className="text-muted-foreground text-xs sm:text-sm lg:text-base">
+                          Tis efter sex
+                        </span>
                       </div>
                       <div className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-orange-600 dark:text-orange-400 flex-shrink-0 mt-0.5" />
@@ -158,8 +160,8 @@ export const PreventionSection = () => {
 
                   <div className="mt-6 py-2 bg-background/50 rounded-lg border border-orange-200 dark:border-orange-900/30 max-w-2xl mx-auto">
                     <p className="text-sm text-muted-foreground italic text-center">
-                      💡<strong className="text-foreground">Alle kroppe er forskellige</strong>, og det
-                      bedste råd er at prøve sig frem og finde ud af, hvad der virker for dig.
+                      💡<strong className="text-foreground">Alle kroppe er forskellige</strong>, og
+                      det bedste råd er at prøve sig frem og finde ud af, hvad der virker for dig.
                     </p>
                   </div>
                 </div>
