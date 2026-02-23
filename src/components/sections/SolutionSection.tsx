@@ -69,7 +69,7 @@ export const SolutionSection = () => {
                       <p className="text-sm text-muted-foreground">
                         <strong className="text-foreground">Mælkesyre ≠ mælkesyrebakterier:</strong>{' '}
                         Mælkesyre (lactic acid) er selve stoffet, ikke det samme som
-                        mælkesyrebakterier (Lactobacillus). Denne behandling bruger mælkesyre, som
+                        mælkesyrebakterier (Probiotika). Denne behandling bruger mælkesyre, som
                         virker direkte.
                       </p>
                     </div>

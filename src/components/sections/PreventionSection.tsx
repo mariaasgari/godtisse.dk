@@ -13,7 +13,7 @@ export const PreventionSection = () => {
             <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold mb-4 md:mb-6 pb-2 bg-gradient-to-r from-primary via-accent to-secondary bg-clip-text text-transparent max-w-3xl mx-auto">
               Gode vaner
             </h2>
-            <p className="text-lg md:text-xl lg:text-xl text-muted-foreground max-w-2xl mx-auto px-2 lg:leading-relaxed">
+            <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-2xl mx-auto px-2 lg:leading-relaxed">
               Supplér mælkesyrebehandlingen med disse enkle vaner.
             </p>
           </div>
@@ -21,7 +21,7 @@ export const PreventionSection = () => {
           {/* ALTID - Generelle gode vaner */}
 
           <Card className="border-2 border-primary/20 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5 mb-6 md:mb-8 lg:mb-10 max-w-4xl mx-auto">
-            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
+            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-10">
               <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 lg:gap-6">
                 <div className="rounded-full bg-primary/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center shrink-0">
                   <Shield className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-primary" />
@@ -32,7 +32,7 @@ export const PreventionSection = () => {
                     Forebyg blærebetændelse med disse daglige rutiner
                   </p>
 
-                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-x-8 md:gap-x-16">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-x-8 md:gap-x-16 lg:gap-x-24">
                     <div className="flex flex-col gap-2 sm:gap-3 lg:gap-4">
                       <div className="flex items-start gap-2">
                         <CheckCircle2 className="h-4 w-4 sm:h-5 sm:w-5 text-primary shrink-0 mt-0.5" />
@@ -82,7 +82,7 @@ export const PreventionSection = () => {
 
           {/* I HØJRISIKO-PERIODER */}
           <Card className="border-2 border-orange-500/30 bg-gradient-to-br from-orange-50/80 to-amber-50/80 dark:from-orange-950/30 dark:to-amber-950/30 shadow-lg max-w-4xl mx-auto">
-            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-6">
+            <CardContent className="p-4 sm:p-6 md:p-8 lg:p-10">
               <div className="flex flex-col sm:flex-row items-start gap-3 sm:gap-4 lg:gap-6">
                 <div className="rounded-full bg-orange-600/10 dark:bg-orange-400/10 w-12 h-12 sm:w-16 sm:h-16 lg:w-20 lg:h-20 flex items-center justify-center shrink-0">
                   <AlertCircle className="h-6 w-6 sm:h-8 sm:w-8 lg:h-10 lg:w-10 text-orange-600 dark:text-orange-400" />
@@ -97,19 +97,19 @@ export const PreventionSection = () => {
 
                   <div className="flex flex-wrap gap-2 sm:gap-3 text-xs sm:text-sm mb-4 justify-center">
                     <span className="inline-flex items-center gap-1 sm:gap-1.5 bg-background/60 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full">
-                      <Heart className="h-3 w-3 sm:h-4 sm:w-4 text-orange-600 dark:text-orange-400" />
+                      <Heart className="h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5 text-orange-600 dark:text-orange-400" />
                       <span className="font-medium">Under og efter sex</span>
                     </span>
                     <span className="inline-flex items-center gap-1 sm:gap-1.5 bg-background/60 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full">
-                      <Droplet className="h-3 w-3 sm:h-4 sm:w-4 text-orange-600 dark:text-orange-400" />
+                      <Droplet className="h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5 text-orange-600 dark:text-orange-400" />
                       <span className="font-medium">Under og efter mens</span>
                     </span>
                     <span className="inline-flex items-center gap-1 sm:gap-1.5 bg-background/60 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full">
-                      <Flower className="h-3 w-3 sm:h-4 sm:w-4 text-orange-600 dark:text-orange-400" />
+                      <Flower className="h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5 text-orange-600 dark:text-orange-400" />
                       <span className="font-medium">Vaginal dysbiose i overgangsalderen</span>
                     </span>
                     <span className="inline-flex items-center gap-1 sm:gap-1.5 bg-background/60 px-2 sm:px-3 py-1 sm:py-1.5 rounded-full">
-                      <Pill className="h-3 w-3 sm:h-4 sm:w-4 text-orange-600 dark:text-orange-400" />
+                      <Pill className="h-3 w-3 sm:h-4 sm:w-4 lg:h-5 lg:w-5 text-orange-600 dark:text-orange-400" />
                       <span className="font-medium">Under og efter antibiotika</span>
                     </span>
                   </div>
