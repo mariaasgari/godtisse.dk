@@ -43,10 +43,10 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">⚖️</span>
                       </div>
                       <div className="bg-pink-100/50 dark:bg-pink-900/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-pink-200 dark:border-pink-800">
-                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
+                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           Dysbiose
                         </p>
-                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">
+                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">
                           Ubalance i mikrobiota
                         </p>
                       </div>
@@ -59,10 +59,10 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">📈</span>
                       </div>
                       <div className="bg-rose-100/50 dark:bg-rose-900/20 rounded-lg px-1 py-0.5 sm:px-4 sm:py-1.5 border border-rose-200 dark:border-rose-800 whitespace-nowrap">
-                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
+                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           pH stiger
                         </p>
-                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">Mindre surt</p>
+                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">Mindre surt</p>
                       </div>
                       {/* Arrow pointing down */}
                       <ArrowRight className="absolute -bottom-5 sm:-bottom-8 left-4 sm:left-6 h-3 w-3 sm:h-5 sm:w-5 text-rose-500 dark:text-rose-400 rotate-[135deg]" />
@@ -74,10 +74,10 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">🦠</span>
                       </div>
                       <div className="bg-fuchsia-100/50 dark:bg-fuchsia-900/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-fuchsia-200 dark:border-fuchsia-800 whitespace-nowrap">
-                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
+                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                           Bakterier vokser
                         </p>
-                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">
+                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">
                           F.eks. E. coli
                         </p>
                       </div>
@@ -91,8 +91,8 @@ export const ViciousCircleSection = () => {
                         <span className="text-base sm:text-2xl">⚡</span>
                       </div>
                       <div className="bg-pink-200/50 dark:bg-pink-800/20 rounded-lg px-1 py-0.5 sm:px-2 sm:py-1.5 border border-pink-300 dark:border-pink-700">
-                        <p className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">Ny UVI</p>
-                        <p className="text-[8px] sm:text-[10px] text-pink-700 dark:text-pink-300">
+                        <p className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">Ny UVI</p>
+                        <p className="text-[10px] sm:text-xs text-pink-700 dark:text-pink-300">
                           Blærebetændelse
                         </p>
                       </div>
@@ -105,13 +105,13 @@ export const ViciousCircleSection = () => {
                       <div className="flex flex-col items-center gap-1">
                         <div className="flex items-center gap-1 sm:gap-2 px-2 py-1 sm:px-4 sm:py-2 bg-gradient-to-r from-pink-200 to-rose-200 dark:from-pink-800/50 dark:to-rose-800/50 rounded-full border-2 border-pink-400 dark:border-pink-600 shadow-md">
                           <Pill className="h-3 w-3 sm:h-4 sm:w-4 text-pink-800 dark:text-pink-200" />
-                          <span className="text-[10px] sm:text-xs font-bold text-pink-900 dark:text-pink-100">
+                          <span className="text-xs sm:text-xs font-bold text-pink-900 dark:text-pink-100">
                             ANTIBIOTIKA
                           </span>
                         </div>
                         <div className="flex items-center gap-1">
                           <ArrowRight className="h-2 w-2 sm:h-3 sm:w-3 text-pink-600 dark:text-pink-400 rotate-180" />
-                          <p className="text-[7px] sm:text-[9px] text-center text-pink-800 dark:text-pink-200 font-bold">
+                          <p className="text-[9px] sm:text-[10px] text-center text-pink-800 dark:text-pink-200 font-bold">
                             Dræber laktobaciller
                           </p>
                         </div>

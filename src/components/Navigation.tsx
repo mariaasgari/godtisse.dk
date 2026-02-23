@@ -90,10 +90,10 @@ export const Navigation = () => {
         {/* Mobile navigation menu */}
         <div
           className={`md:hidden overflow-hidden transition-all duration-300 ease-in-out ${
-            isMobileMenuOpen ? 'max-h-96 opacity-100 mt-4' : 'max-h-0 opacity-0'
+            isMobileMenuOpen ? 'max-h-[80vh] opacity-100 mt-4' : 'max-h-0 opacity-0'
           }`}
         >
-          <div className="flex flex-col gap-2 pb-4">
+          <div className="flex flex-col gap-3 pb-4 overflow-y-auto">
             <Button
               variant="ghost"
               className="w-full justify-start"

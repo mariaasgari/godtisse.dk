@@ -42,7 +42,7 @@ export const UnderstandingSection = () => {
                   <h3 className="text-xl sm:text-2xl lg:text-3xl font-semibold mb-3 md:mb-4">
                     Hvorfor får du blærebetændelse?
                   </h3>
-                  <div className="sm:columns-2 sm:gap-6 lg:gap-8 mb-4">
+                  <div className="md:columns-2 md:gap-6 lg:gap-8 mb-4">
                     <h4 className="text-sm font-semibold text-foreground mb-2">
                       Bakteriemiljø i balance
                     </h4>
@@ -98,7 +98,7 @@ export const UnderstandingSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-xs sm:text-sm lg:text-base">Sex</p>
-                      <p className="text-[10px] sm:text-xs lg:text-sm text-muted-foreground">
+                      <p className="text-xs sm:text-xs lg:text-sm text-muted-foreground">
                         Sæd har pH ~7.5
                       </p>
                     </div>
@@ -109,7 +109,7 @@ export const UnderstandingSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-xs sm:text-sm lg:text-base">Menstruation</p>
-                      <p className="text-[10px] sm:text-xs lg:text-sm text-muted-foreground">
+                      <p className="text-xs sm:text-xs lg:text-sm text-muted-foreground">
                         Blod har pH ~7
                       </p>
                     </div>
@@ -120,7 +120,7 @@ export const UnderstandingSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-xs sm:text-sm lg:text-base">Overgangsalder</p>
-                      <p className="text-[10px] sm:text-xs lg:text-sm text-muted-foreground">
+                      <p className="text-xs sm:text-xs lg:text-sm text-muted-foreground">
                         Færre laktobaciller
                       </p>
                     </div>
@@ -131,7 +131,7 @@ export const UnderstandingSection = () => {
                     </div>
                     <div>
                       <p className="font-medium text-xs sm:text-sm lg:text-base">Antibiotika</p>
-                      <p className="text-[10px] sm:text-xs lg:text-sm text-muted-foreground">
+                      <p className="text-xs sm:text-xs lg:text-sm text-muted-foreground">
                         Dræber laktobaciller
                       </p>
                     </div>

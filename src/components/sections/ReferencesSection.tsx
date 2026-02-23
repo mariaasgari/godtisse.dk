@@ -43,7 +43,7 @@ export const ReferencesSection = () => {
                         <p className="text-xs sm:text-sm lg:text-base text-muted-foreground italic mb-2 sm:mb-3">
                           {ref.journal}, {ref.volume}, {ref.pages}
                         </p>
-                        <div className="flex flex-wrap gap-2 sm:gap-4 lg:gap-6 text-[10px] sm:text-xs lg:text-sm">
+                        <div className="flex flex-wrap gap-2 sm:gap-4 lg:gap-6 text-xs sm:text-xs lg:text-sm">
                           <span className="text-muted-foreground">
                             <strong className="text-foreground">DOI:</strong> {ref.doi}
                           </span>
